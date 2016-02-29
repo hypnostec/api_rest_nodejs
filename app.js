@@ -20,7 +20,7 @@ app.use(methodOverride());
 //=====================================================================
 
 router.get('/', function(req, res){
-	res.send("Hello World");
+	res.send("Hello World vacano");
 });
 
 app.use(router);
